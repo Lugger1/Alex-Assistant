@@ -1,0 +1,39 @@
+QMainWindow{
+    /* border: 2px solid white; */
+    background: qlineargradient(x0: 0.25, y0: 0, x1: 1, y1:1, stop: 0 rgb(20, 20, 20), stop:1 black);
+}
+
+QPushButton{
+    border-radius: 10px;
+    background: qlineargradient(x0: 0, y0: 0.3, x1: 1, y1:0.7, stop: 0 #42047e, stop:1 #07f49e);
+}
+
+QPushButton:hover{
+    background: qlineargradient(x0: 0, y0: 0.3, x1: 1, y1:0.7, stop: 0 rgba(66, 4, 126, 65%), stop:1 rgba(7, 244, 158, 65%));
+}
+
+QPushButton:pressed{
+    border-radius: 10px;
+    background: qlineargradient(x0: 0, y0: 0.3, x1: 1, y1:0.7, stop: 0 rgba(66, 4, 126, 45%), stop:1 rgba(7, 244, 158, 45%));
+}
+
+QLabel{
+    background-color: none;
+    color: rgb(186, 199, 218);
+}
+
+QLabel#in_scroll { 
+    padding: 5px; 
+    /* background-color: black;  */
+}
+
+QScrollArea{
+    /* background-color: black; */
+    border-radius: 10px;
+}
+
+QLineEdit{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
