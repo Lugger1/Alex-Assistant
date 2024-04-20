@@ -1,0 +1,9 @@
+pyttsx3
+SpeechRecognition
+PyAudio
+fuzzywuzzy
+icecream
+requests
+python-Levenshtein
+tqdm
+PyQt6
